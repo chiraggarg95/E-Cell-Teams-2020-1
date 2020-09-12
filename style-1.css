@@ -148,55 +148,6 @@ header h1{
     transform: none;
   }
 
-
-  @media (max-width: 900px) {
-    .navlink {
-      display: none;
-      font-size: 25px;
-      margin: 0 auto;
-    }
-  
-    #ecell-logo {
-      width: 80px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .main {
-      margin: 0 0 0;
-    }
-  }
-
-  @media screen and (max-width: 576px){
-    .card-info {
-      min-height: 150px;
-      max-height: 125px;
-      min-width: 150px;
-      max-width: 125px;
-      -webkit-box-flex: 1;
-              flex: 1;
-      margin: 5px;
-      margin-bottom: 0px;
-      z-index: 1250;
-    }
-  
-    .text {
-      position: absolute;
-      bottom: 0px;
-      font-size: 20px;
-      font-weight: bold;
-      /* margin-top: 94%; */
-      text-align: center;
-      background-color: #000000;
-      width: 100%;
-    }
-  
-    .backface .contacts a{
-      font-size: 1.4em;
-      margin: 0 2px;
-    }
-  }
-
   .card {
     /* position: fixed; */
     /* height: calc(100% - 80px); */
@@ -396,4 +347,57 @@ section .main h1{
   margin: 0px;
   font-size: 3em;
   text-transform: uppercase;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .navlink {
+    display: none;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+
+  #ecell-logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    margin: 0 0 0;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .card-info {
+    min-height: 150px;
+    max-height: 125px;
+    min-width: 150px;
+    max-width: 125px;
+    -webkit-box-flex: 1;
+            flex: 1;
+    margin: 5px;
+    margin-bottom: 0px;
+    z-index: 1250;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 94%; */
+    text-align: center;
+    /* background-color: #000000; */
+    width: 100%;
+  }
+
+  .backface .contacts a{
+    font-size: 1.4em;
+    margin: 0 2px;
+  }
+
+  section .main h1{
+    font-size: 2em;
+  }
 }
