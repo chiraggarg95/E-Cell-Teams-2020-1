@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    scroll-behavior: smooth !important;
+    /* scroll-behavior: smooth !important; */
 }
 
 ::-webkit-scrollbar {
@@ -368,7 +368,7 @@ section .main h1{
   }
 }
 
-@media screen and (max-width: 576px){
+@media (max-width: 576px){
   .card-info {
     min-height: 150px;
     max-height: 125px;
